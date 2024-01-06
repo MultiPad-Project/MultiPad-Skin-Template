@@ -2,7 +2,7 @@
 This is a skin model supported exclusively by MultiPad, in order to be easier to create, as you won't need to [create an APK for a skin](https://github.com/kimjisub/UniPad-theme-template) to use in MultiPad, and also to be more "Specific" to customize as much detail as possible of your virtual Launchpad.
 # Details
 ## General
-All skin templates have a ["skin_info.json"](#The "skin_info.json" file) file that will store all the information necessary for MultiPad to recognize and correctly apply the skin. The file structure may vary depending on the skin model, currently [basic](#Basic Model) and [advanced](#Advanced Template) model. All the information you need to be able to work with the skins is just below (The file structure you can use from the samples available in this repository). The Skins directory is "/MultiPad/Skins"
+All skin templates have a ["skin_info.json"](https://github.com/MultiPad-Project/MultiPad-Skin-Template/edit/main/README.md#the-skin_infojson-file) file that will store all the information necessary for MultiPad to recognize and correctly apply the skin. The file structure may vary depending on the skin model, currently [basic](https://github.com/MultiPad-Project/MultiPad-Skin-Template/edit/main/README.md#basic-model) and [advanced](https://github.com/MultiPad-Project/MultiPad-Skin-Template/edit/main/README.md#advanced-model) model. All the information you need to be able to work with the skins is just below (The file structure you can use from the samples available in this repository). The Skins directory is "/MultiPad/Skins"
 ## The "skin_info.json" file
 This file allows MultiPad to identify that directory as a Skin, so it is mandatory to have this file in your skin directory (Example: /MultiPad/Skins/My Custom Skin/skin_info.json). In it, there will be the necessary information that MultiPad needs to obtain the name, author, and version of that particular skin. In addition to this information, there will be some other information that will be needed to identify the type of skin.
 ## Basic Model
@@ -16,7 +16,7 @@ The basic model works the same as the Unipad skins, as I only need the common PN
 }
 ```
 ## Advanced Model
-The advanced skin model is for those who are not lazy and want to make the skin as cool as possible, as you will be able to customize the pads individually. The difference between [Advanced Model](#Advanced Template) and [Basic Model](#Basic Model) is the ability to use a .png for each pad to create very specific skins, for example a very real skin from a Novation Launchpad. In the basic model, the structure of the "skin_info.json" files will be as follows:
+The advanced skin model is for those who are not lazy and want to make the skin as cool as possible, as you will be able to customize the pads individually. The difference between [Advanced Model](https://github.com/MultiPad-Project/MultiPad-Skin-Template/edit/main/README.md#advanced-model) and [Basic Model](https://github.com/MultiPad-Project/MultiPad-Skin-Template/edit/main/README.md#basic-model) is the ability to use a .png for each pad to create very specific skins, for example a very real skin from a Novation Launchpad. In the basic model, the structure of the "skin_info.json" files will be as follows:
 ```
 {
 	"skin_name": "SKIN_NAME",
