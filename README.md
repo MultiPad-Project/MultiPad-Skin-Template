@@ -6,6 +6,7 @@ All skin templates have a ["skin_info.json"](https://github.com/MultiPad-Project
 ## The "skin_info.json" file
 This file allows MultiPad to identify that directory as a Skin, so it is mandatory to have this file in your skin directory (Example: `/MultiPad/Skins/My Custom Skin/skin_info.json`). In it, there will be the necessary information that MultiPad needs to obtain the name, author, and version of that particular skin. In addition to this information, there will be some other information that will be needed to identify the type of skin.
 ## Basic Model
+<img src="https://github.com/MultiPad-Project/MultiPad-Skin-Template/blob/main/Basic%20Skin/preview.png"></img>
 The basic model works the same as the Unipad skins, as I only need the common PNG's renamed as `"chainled", "btn", "btn_", "phatom", "pahtom_", "playbg"` and etc. In the basic model, the structure of the "skin_info.json" file will be as follows:
 ```
 {
@@ -16,6 +17,7 @@ The basic model works the same as the Unipad skins, as I only need the common PN
 }
 ```
 ## Advanced Model
+<img src="https://github.com/MultiPad-Project/MultiPad-Skin-Template/blob/main/Advanced%20Skin/preview.png"></img>
 The advanced skin model is for those who are not lazy and want to make the skin as cool as possible, as you will be able to customize the pads individually. The difference between [Advanced Model](https://github.com/MultiPad-Project/MultiPad-Skin-Template#advanced-model) and [Basic Model](https://github.com/MultiPad-Project/MultiPad-Skin-Template#basic-model) is the ability to use a .png for each pad to create very specific skins, for example a very real skin from a Novation Launchpad. In the basic model, the structure of the "skin_info.json" files will be as follows:
 ```
 {
